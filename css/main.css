@@ -1,0 +1,15 @@
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.gallery .item__image, .gallery .item__link {
+  width: 100%;
+}
+
+.gallery .item__link {
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */
